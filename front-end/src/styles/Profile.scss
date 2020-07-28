@@ -1,0 +1,17 @@
+
+
+.profile-section {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    flex-direction: row;
+    height: -webkit-calc(100vh - 138px - 357px);
+    height: calc(100vh - 138px - 357px);
+
+}
+
+body {
+    height: fit-content;
+}

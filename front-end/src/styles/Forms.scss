@@ -1,0 +1,454 @@
+form {
+    max-width: 65ch;
+    margin: auto;
+}
+
+.large-form {
+    max-width: 100ch;
+    margin: auto;
+}
+/******************************************ADD PRODUCT FORM**********************************************************************/
+
+.centered-form {
+    margin-left: 20%;
+}
+
+.col-sm-6 {
+    padding-left: 0 !important;
+}
+
+.btn-submit {
+    padding-left: 0 !important;
+    margin-top: -webkit-calc(2px + .65rem);
+    margin-top: calc(2px + .65rem);
+}
+
+.add-product-title {
+    -moz-text-align: center;
+    -ms-text-align: center;
+    -webkit-text-alignt: center;
+    text-align: center;
+    margin-bottom: -webkit-calc(.2em + 4rem);
+    margin-bottom: calc(.2em + 4rem);
+}
+
+.form-control:active, .form-control:focus {
+    border-color:rgb(40, 167, 69) !important;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 70, 0.25) !important;
+    border: 1px solid rgb(40, 167, 69) !important;
+}
+.form-control:active {
+    background: rgba(40, 167, 69, 0.1) !important;
+}
+
+
+/******************************WARNING*************************************/
+.warningMsg {
+    display: none;
+    color: #FF0000;
+    margin-bottom: 0;
+}
+
+.warning-input {
+    background-color: #FF0000;
+    border-color: #FF0000 !important;
+}
+
+.warning-input:focus, .warning-input:active {
+    border-color:rgb(250, 58, 0) !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 1, 1, 0.25) !important;
+    border: 1px solid rgb(253, 1, 1) !important;
+}
+
+.warning-input:active {
+    background: rgba(255, 0, 0, 0.1) !important;
+}
+
+
+
+/*********************************************ADD PRODUCT******************************************************************/
+
+.add-product-title {
+    text-transform: uppercase;
+    
+
+    h1 {
+        position:relative;
+    }
+  
+}
+
+.form-group  {
+    font-size: 16px;
+}
+
+.form-control {
+    font-size: 16px !important;
+}
+
+.form-group {
+
+    .btn-outline-success {
+        margin-top: 5%;
+    }
+}
+
+.add-product-container {
+    background-color: #c2e25a1f;
+    border-radius: 3%;
+    padding-top: 5em; 
+    padding-bottom: 5em; 
+}
+
+
+/******************************ADD CATEGORY**************************************************************/
+
+.add-category-title {
+    text-transform: uppercase;
+     -moz-text-align: center;
+        -ms-text-align: center;
+        -webkit-text-alignt: center;
+        text-align: center;
+    margin-bottom: 3em;
+}
+
+.image-file-inEditForm {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    flex-wrap: wrap;
+
+    .image-wrap-inAddForm {
+        flex-basis: 15%;
+        margin-left: 60px;
+        img {
+            width: 176px;
+            height: 176px;
+            overflow: hidden;
+            object-fit: contain;
+        }
+    }
+}
+.input-wrap-inAddForm {
+    flex-basis: 40%;
+    input {
+        width: 260px;
+    }
+}
+
+/********************************BUTTONS************************************/ 
+.btn-success {
+}
+
+.btn-outline-danger {
+    border-color: $lowerPriceColor !important;
+    color: $lowerPriceColor !important;
+
+    &:hover {
+        background-color: $lowerPriceColor !important;
+        color: $whiteColor !important;
+    }
+}
+
+.btn-outline-secondary > h3 {
+    color: rgb(108, 117, 125);
+}
+.btn-outline-secondary {
+    width: 116.31px;
+}
+.btn-outline-success > h5 {
+    // text-transform: uppercase;
+    color: $darkGreenColor;
+}
+.onHoverWhite {
+    color: $whiteColor !important;
+}
+
+
+.edit-Btns {
+    h3 {
+        font-size: 1.5rem !important;
+    }
+}
+
+.greyBtn {
+    border: 2px solid $buttonGrey;
+    border-radius: 3px;
+    width: fit-content;
+    cursor: pointer;
+    width: 113px;
+    height: 42px;
+    position: relative;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: fit-content;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform:    translate(-50%, -50%);
+        -ms-transform:     translate(-50%, -50%);
+        -o-transform:      translate(-50%, -50%);
+    }
+    
+    &:hover {
+        background-color: $buttonGrey;
+    }
+}
+
+.greenBtn {
+    border: 2px solid $darkGreenColor;
+    background-color: $darkGreenColor;
+    border-radius: 3px;
+    width: fit-content;
+    cursor: pointer;
+    width: 113px;
+    height: 42px;
+    position: relative;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: fit-content;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform:    translate(-50%, -50%);
+        -ms-transform:     translate(-50%, -50%);
+        -o-transform:      translate(-50%, -50%);
+    }
+    &:hover {
+        background-color: $buttonGrey;
+    } 
+}
+
+.green-emptyBtn {
+    border: 2px solid $darkGreenColor;
+    border-radius: 3px;
+    border-radius: 3px;
+    width: fit-content;
+    cursor: pointer;
+    width: 113px;
+    height: 42px;
+    position: relative;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: fit-content;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform:    translate(-50%, -50%);
+        -ms-transform:     translate(-50%, -50%);
+        -o-transform:      translate(-50%, -50%);
+        color: $darkGreenColor;
+    }
+    &:hover {
+        background-color: $darkGreenColor;
+    } 
+}
+.green-emptyBtn-add {
+    border: 2px solid $darkGreenColor;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 135px;
+    height: 50px;
+    position: relative;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: fit-content;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform:    translate(-50%, -50%);
+        -ms-transform:     translate(-50%, -50%);
+        -o-transform:      translate(-50%, -50%);
+        color: $darkGreenColor;
+    }
+    &:hover {
+        background-color: $darkGreenColor;
+    } 
+}
+
+.saveBtn {
+    border: 2px solid $darkGreenColor;
+    border-radius: 3px;
+    width: fit-content;
+    cursor: pointer;
+    width: 113px !important;
+    height: 42px;
+    position: relative;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: fit-content;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform:    translate(-50%, -50%);
+        -ms-transform:     translate(-50%, -50%);
+        -o-transform:      translate(-50%, -50%);
+        color: $darkGreenColor;
+    }
+    &:hover {
+        background-color: $darkGreenColor;
+    } 
+}
+.darkGreyBtn {
+    border: 2px solid $buttonGrey;
+    background-color: $buttonGrey;
+    border-radius: 3px;
+    width: fit-content;
+    cursor: pointer;
+    width: 113px;
+    height: 42px;
+    position: relative;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: fit-content;
+        border-radius: 3px;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform:    translate(-50%, -50%);
+        -ms-transform:     translate(-50%, -50%);
+        -o-transform:      translate(-50%, -50%);
+    }
+    &:hover {
+        background-color: $whiteColor;
+    } 
+}
+
+.yellowBtn {
+    border: 2px solid $buttonYellow;
+    border-radius: 3px;
+    background-color: $buttonYellow;
+    width: fit-content;
+    cursor: pointer;
+    width: 113px;
+    height: 42px;
+    position: relative;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .1);
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: fit-content;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform:    translate(-50%, -50%);
+        -ms-transform:     translate(-50%, -50%);
+        -o-transform:      translate(-50%, -50%);
+    }
+    &:hover {
+        background-color: $whiteColor;
+    } 
+}
+
+// Draft JS editor
+
+.DraftEditor-root {
+    border-left: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    padding: 15px 11px
+}
+.form-group > .rdw-editor-wrapper {
+    max-width: 100%;
+    max-height: 500px;
+    margin-bottom: 90px;
+}
+
+.rdw-editor-main {
+    background-color: #fff;
+}
+.public-DraftEditor-content {
+    margin-top: -7px;
+    resize: none;
+}
+.data-contents {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.descriptionDivHidden {
+    height: 15vw;
+    position: relative;
+    overflow: hidden;
+}
+.descriptionDivVisible {
+    height: auto;
+    position: static;
+}
+
+.toolbarClassNameEdit {
+    max-width: 100%;
+    max-height: 500px;
+    margin-bottom: 90px;
+}
+.wrapperClassNameEdit {
+
+}
+.editorClassNameEdit {
+
+}
+@media only screen and (max-width: 1038px) {
+    .descriptionDivHidden {
+        height: 25vw;
+    }
+}
+@media only screen and (max-width: 1038px) {
+    .descriptionDivHidden {
+        height: 40vw;
+    }
+}
+@media only screen and (max-width: 458px) {
+    .descriptionDivHidden {
+        height: 60vw;
+    }
+}
+@media only screen and (max-width: 458px) {
+    .descriptionDivHidden {
+        height: 80vw;
+    }
+}
+.addImg-col {
+    margin-top: 5%;
+}

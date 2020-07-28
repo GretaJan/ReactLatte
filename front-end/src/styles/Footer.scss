@@ -1,0 +1,217 @@
+/******************************FOOTER**********************************************************************************/
+.indexSection {
+    padding-bottom: 0;
+}
+
+footer {
+    background-color: #3a3a3a;
+    padding-top: 40px;
+    color: $originalPriceColor !important;
+
+    h5 {
+        margin-bottom: 30px;
+    }
+    h4 {
+        color: $darkGreenColor;
+    }
+
+    .main-footer-wrap-flexbox {
+        display: flex;
+        display: -webkit-flex; 
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -webkit-flex; 
+        flex-direction: row;
+        -moz-justify-content: space-around;
+        -ms-justify-content: space-around;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+
+    }
+    ul {
+        padding-left: 0;
+    }
+    .mobile-inline-block-one {
+        ul {
+            p {
+                color: $darkGreenColor !important;
+                &:hover {
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+.footer-inner-row-flexbox {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    flex-direction: row;
+
+    .date-footer {
+        color: $darkGreenColor;
+    }
+    
+
+    p {
+        font-size: 16px;
+        flex-basis: 90px;
+    }
+}
+
+.footer-flex-two > ul > li > ul > li {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    flex-direction: row;
+    margin-bottom: 15px;
+    svg {
+        margin-right: 5px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.footer-flex-two > ul {
+    p {
+        font-size: 16px;
+    }
+}
+.copy-rights-wrap {
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 2%;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+
+    .empty-div {
+        width: 496.837px;
+    }
+    a {
+        font-style: italic;
+        color: $darkGreenColor;
+        &:hover {
+            opacity: .7;
+            color: $darkGreenColor;
+        }
+    }
+}
+
+
+@media screen and (max-width: 765px) {
+    .footer-flex-one {
+       display: none;
+    }
+
+    .footer-flex-two {
+        flex-basis: 100% !important;
+    }
+    
+    .footer-flex-two > ul > li > ul {
+        display: flex;
+        display: -webkit-flex; 
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -webkit-flex; 
+         -moz-justify-content: center;
+        -ms-justify-content: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        text-align: left;
+    }
+ 
+    .footer-flex-two > ul > li > ul > li {
+        flex-basis: 50%;
+    }
+
+    .footer-flex-two {
+        text-align: center;
+    }
+    .mobile-block {
+        width: 50%;
+    }
+    .copy-rights-wrap {
+        justify-content: center;
+    }
+    .empty-div {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 427px) {
+    .footer-flex-two {
+        justify-content: center;
+        text-align: center
+    }
+    .footer-flex-two > ul > li > ul {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        // text-align: center;   
+        align-items: center;   
+    }
+    .footer-flex-two h5 {
+        margin-left: 0;
+    }
+
+}
+
+/*****************************404 PAGE*********************************************************/
+
+.pgNotFound {
+    max-height: 100vh;
+}
+
+.footer-inNotFoundPg {
+    bottom: 0;
+}
+
+.notFoundpg-flex-wrap {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    flex-direction: column;
+    min-height: -webkit-calc(100vh - 138px);
+    min-height: calc(100vh - 138px);
+}
+
+.notFountPg-ContentWrap {
+     -moz-text-align: center;
+        -ms-text-align: center;
+        -webkit-text-alignt: center;
+        text-align: center;
+    margin-top: auto;
+
+    h3 {
+        margin-top: 50px;
+        margin-bottom: 50px
+    }
+}
+
+
+@media screen and (max-width: 914px) {
+    .notFoundpg-flex-wrap {
+        display: flex;
+        display: -webkit-flex; 
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -webkit-flex; 
+        flex-direction: column;
+        min-height: -webkit-calc(100vh - 80px);
+        min-height: calc(100vh - 80px);
+    }
+}
